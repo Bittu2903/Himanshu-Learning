@@ -1,0 +1,35 @@
+# Program 1: Reverse of a number
+
+# First Approach 
+
+Name = "Himanshu"
+print(Name[::-1])
+
+# Second Approach
+
+Name = "Himanshu"
+ReverseName = ''
+for i in Name:
+  ReverseName = i + ReverseName
+print(ReverseName)
+
+
+
+
+# Program 2: Palindrome
+
+word = input('Enter the word: ')
+
+def palindrome(word):
+  ReverseWord = ''
+  for i in word:
+    ReverseWord = i + ReverseWord
+
+  if word == ReverseWord:
+    print("Yes Palindrome")
+  else:
+    print("No Palindrome")
+
+palindrome(word)
+  
+  
